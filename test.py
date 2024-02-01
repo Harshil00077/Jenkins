@@ -8,7 +8,7 @@ class TestSum(unittest.TestCase):
     b = 20
     data = [a,b]
     result = sum1(data)
-    self.assertEqual(resutl,a+b)
+    self.assertEqual(result,a+b)
 
 if __name__ == '__main__':
   unittest.main()
